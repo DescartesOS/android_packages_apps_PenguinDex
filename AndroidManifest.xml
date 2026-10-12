@@ -15,7 +15,8 @@
     <application
         android:label="@string/app_name"
         android:icon="@drawable/ic_touchpad"
-        android:directBootAware="false">
+        android:directBootAware="false"
+        android:persistent="true">
 
         <receiver
             android:name=".BootReceiver"
